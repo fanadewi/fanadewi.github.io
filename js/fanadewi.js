@@ -10,11 +10,11 @@ $("#submit-button").click(function() {
             data: {message: $("#message-field").val()},
             success: function (result) {
                 console.log(result)
-                alert("Thanks for the message, it's really sent to Ana!");
+                alert("The message sent in background, hope it's really sent. Thanks for the message!");
             },
             error: function (err) {
                 console.log(err)
-                alert("Ouch the mailer is down >.< but still, Thanks for the message!");
+                alert("The message failed to sent, but still, Thanks for the message!");
                 }
         });
         // reset form
