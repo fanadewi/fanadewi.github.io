@@ -1,0 +1,66 @@
+# Build settings
+plugins:
+  - jemoji
+  - jekyll-paginate
+
+# Site settings
+title: "Ana's thoughts"
+description: > # this means to ignore newlines until "email:"
+   My safe place to sharing my thoughts and experiences
+
+email: f.ana.d@outlook.co.id
+#blog logo
+logo: "/assets/images/logo/circle.png"
+landscape_logo: "/assets/images/logo/landscape.png"
+square_logo: "/assets/images/logo/square.png"
+circle_logo: "/assets/images/logo/circle.png"
+float_logo: true # true, false (default)
+
+# blog cover
+cover: "https://res.cloudinary.com/fanadewi19/image/upload/v1724100956/msi.jpg"
+
+name: 'F. Ana D.'
+author: 'fanadewi'
+author_image: "https://res.cloudinary.com/fanadewi19/image/upload/v1724100956/msi.jpg"
+
+paginate:	5
+
+url: "http://myblog.***.***" # the base hostname & protocol for your site
+baseurl: ""
+#used to display twitter cards
+# twitter_handle: '@ihavenone'
+
+# fill in disqus shortname to use disqus
+disqus: fanadewi-gitblog
+
+#google_analytics: UA-XXXXX-X
+
+# social icons and sharing options
+social:
+  # - icon:	twitter
+  #   url:	https://twitter.com/dirkfabisch
+  #   desc: Follow me on twitter
+  #   share_url: http://twitter.com/share
+  #   share_title: ?text=
+  #   share_link: "&amp;url="
+
+#  - icon:	facebook
+#    url:	https://facebook.com/???
+#    desc: Connect with me facebook
+#    share_url: https://www.facebook.com/sharer.php
+#    share_title: ?t=
+#    share_link: "&amp;u="
+
+  - icon:	github
+    url:	https://github.com/fanadewi
+    desc:	Fork me on github
+    share_url:
+    share_title:
+    share_link:
+
+#  - icon:	google-plus
+#    url:	https://google.com/???
+#    desc:	Add me on google+
+#    share_url:
+#    share_title:
+#    share_link:
