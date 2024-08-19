@@ -5,6 +5,7 @@ date:   2024-08-20 05:05:05 +0700
 categories: general
 tags: general
 image: https://res.cloudinary.com/fanadewi19/image/upload/v1724100956/msi.jpg
+permalink: /about/
 ---
 
 ## Hey There!
